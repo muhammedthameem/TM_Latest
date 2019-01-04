@@ -1,0 +1,536 @@
+/* Fonts */
+@font-face {
+  font-family: 'Gotham Book';
+  src: url("../fonts/Gotham-Book.woff") format("woff"), url("../fonts/Gotham-Book.ttf") format("truetype"); }
+
+/*Opacity Module*/
+.opacity--visible {
+  opacity: 1; }
+
+.opacity--9 {
+  opacity: 0.9; }
+
+.opacity--8 {
+  opacity: 0.8; }
+
+.opacity--7 {
+  opacity: 0.7; }
+
+.opacity--6 {
+  opacity: 0.6; }
+
+.opacity--5 {
+  opacity: 0.5; }
+
+.opacity--4 {
+  opacity: 0.4; }
+
+.opacity--3 {
+  opacity: 0.3; }
+
+.opacity--2 {
+  opacity: 0.2; }
+
+.opacity--1 {
+  opacity: 0.1; }
+
+.opacity--0 {
+  opacity: 0; }
+
+/*Z index*/
+.z-index--1 {
+  z-index: 10; }
+
+.z-index--2 {
+  z-index: 20; }
+
+.z-index--3 {
+  z-index: 30; }
+
+.z-index--4 {
+  z-index: 40; }
+
+.z-index--5 {
+  z-index: 50; }
+
+.z-index--6 {
+  z-index: 60; }
+
+.z-index--7 {
+  z-index: 70; }
+
+.z-index--8 {
+  z-index: 80; }
+
+.z-index--auto {
+  z-index: auto; }
+
+.help-button {
+  background: #286090;
+  position: fixed;
+  bottom: 20px;
+  right: 22px;
+  z-index: 10;
+  border-radius: 50px;
+  color: white;
+  text-align: center;
+  padding: 10px 15px; }
+  .help-button__circle {
+    height: 19px;
+    width: 19px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    margin-right: 8px;
+    padding: 1px; }
+  .help-button .s-question {
+    font-size: 14px; }
+  .help-button__text {
+    display: inline-block;
+    margin: 0;
+    font-size: 13px; }
+
+/* top banner - hero */
+.b--section-primary {
+  height: 660px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  @media screen and (max-width: 840px) {
+    .b--section-primary {
+      height: 550px;
+      height: calc(100vh - 137px);
+      background-position: center; } }
+  .b--section-primary__wrapper {
+    position: relative;
+    height: 660px; }
+    @media screen and (max-width: 840px) {
+      .b--section-primary__wrapper {
+        height: 550px;
+        height: calc(100vh - 137px); } }
+  .b--section-primary--top-element {
+    margin-top: 158px; }
+    @media screen and (max-width: 840px) {
+      .b--section-primary--top-element {
+        background-image: url("../@img_extra/category-primary5.png") !important; } }
+  @media all and (max-width: 840px) {
+    .b--section-primary--top-element {
+      margin-top: 135px; } }
+  .b--section-primary__description {
+    position: absolute;
+    bottom: 245px;
+    left: 55px; }
+    @media screen and (max-width: 840px) {
+      .b--section-primary__description {
+        text-align: center;
+        width: 100%;
+        left: 0;
+        padding: 0 40px;
+        bottom: 30px;
+        left: 0; } }
+  .b--section-primary__title {
+    color: #fff;
+    font-size: 47px;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    font-family: "Montserrat"; }
+  .b--section-primary__subtitle {
+    max-width: 420px;
+    font-family: "Gotham Book";
+    font-size: 18px;
+    color: white;
+    letter-spacing: 0.4px;
+    margin: 25px 0; }
+  .b--section-primary__dot {
+    height: 30px;
+    width: 30px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center; }
+    @media screen and (max-width: 840px) {
+      .b--section-primary__dot {
+        display: none; } }
+    .b--section-primary__dot .s-2x {
+      top: 7px;
+      position: absolute;
+      font-size: 1.2em;
+      right: 7px; }
+  .b--section-primary .btn {
+    font-size: 13px;
+    height: 40px !important; }
+
+@media screen and (max-width: 840px) {
+  .b--listing .slick-list {
+    padding-left: 20px !important; } }
+
+/* desktop footer */
+.footer--desktop {
+  margin: 50px 0 0 0;
+  display: block; }
+  .footer--desktop__title {
+    font-size: 16px;
+    font-family: "Montserrat";
+    color: #222222;
+    font-weight: 700; }
+  .footer--desktop__title--social {
+    margin-top: 34px !important;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px; }
+  .footer--desktop__logo {
+    width: 60%;
+    margin-top: 15px;
+    margin-bottom: 10px; }
+  .footer--desktop__list-item {
+    font-size: 14px;
+    font-family: "Gotham Book";
+    font-weight: bold;
+    color: #222222;
+    display: block;
+    float: left;
+    width: 100%; }
+  .footer--desktop__list-item a {
+    color: #222222;
+    font-size: 13px;
+    display: block;
+    padding: 8px 0; }
+  .footer--desktop__list-item a:hover {
+    font-weight: 900 !important;
+    color: #33577e; }
+  .footer--desktop .socialList {
+    margin-bottom: 50px; }
+  .footer--desktop .s-3x {
+    font-size: 28px; }
+
+.footer--desktop__list--totheright li {
+  margin: 15px 0; }
+
+.footer--desktop__list--totheright li a {
+  font-family: 'Gotham Book';
+  font-size: 13px; }
+
+@media all and (max-width: 767px) {
+  .footer--desktop {
+    display: none; } }
+
+/* subfooter */
+.b--subfooter {
+  position: relative;
+  float: left;
+  width: 100%;
+  background-color: #f0f0f0;
+  height: 35px; }
+  @media all and (max-width: 840px) {
+    .b--subfooter {
+      text-align: center;
+      padding: 20px; } }
+  .b--subfooter .dropup {
+    position: relative;
+    width: 180px;
+    height: 35px;
+    border: 1px solid #c3c3c3;
+    border-bottom: none;
+    margin-left: 38px;
+    margin-right: 29px; }
+    @media screen and (max-width: 840px) {
+      .b--subfooter .dropup {
+        display: block;
+        width: 100%;
+        margin: 0 auto; } }
+    .b--subfooter .dropup a span {
+      position: relative;
+      display: inline-block;
+      width: 21px;
+      height: 14px;
+      margin-right: 10px;
+      background-size: auto 100%;
+      background-repeat: no-repeat;
+      top: 2px; }
+    .b--subfooter .dropup .dropdown-menu {
+      position: absolute !important;
+      top: auto !important;
+      bottom: 100%;
+      margin-bottom: 2px; }
+    .b--subfooter .dropup .dropdown-menu > li {
+      display: block;
+      width: 100%; }
+    .b--subfooter .dropup .dropdown-menu > li > a {
+      display: block;
+      width: 100%;
+      padding: 3px 20px;
+      clear: both;
+      font-weight: 400;
+      line-height: 1.42857143;
+      color: #333;
+      white-space: nowrap; }
+    .b--subfooter .dropup .btn {
+      padding: 8px 15px;
+      font-family: "Montserrat";
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: capitalize; }
+      .b--subfooter .dropup .btn .s-4x {
+        top: 1px;
+        position: relative;
+        margin-left: 10px;
+        font-size: 10px; }
+      .b--subfooter .dropup .btn .s-chevron-down:before {
+        -webkit-transform: rotate(-190deg);
+        -moz-transform: rotate(-180deg);
+        -o-transform: rotate(-180deg);
+        -ms-transform: rotate(-180deg);
+        transform: rotate(-180deg); }
+    .b--subfooter .dropup a.btn {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 35px;
+      text-align: left;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      padding-right: 36px; }
+    .b--subfooter .dropup button.btn {
+      width: 100%;
+      text-align: right;
+      background: none; }
+  .b--subfooter .dropup.open ul {
+    overflow-y: auto;
+    height: 75vh; }
+  .b--subfooter .btn-default {
+    border-bottom: none; }
+  .b--subfooter h6 {
+    display: inline;
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 12px; }
+  .b--subfooter ul {
+    position: relative;
+    float: right;
+    margin: 0; }
+    .b--subfooter ul li {
+      float: left; }
+      .b--subfooter ul li a {
+        float: left;
+        padding: 10px 20px;
+        font-size: 12px;
+        font-family: "Montserrat";
+        font-size: 12px;
+        font-weight: 600; }
+
+/* mobile footer */
+.footer--mobile {
+  display: none;
+  padding: 70px 0; }
+  .footer--mobile__social {
+    padding: 5px 0; }
+  .footer--mobile__title {
+    font-size: 16px;
+    font-family: "Montserrat";
+    color: #222222;
+    font-weight: 700;
+    padding-bottom: 15px; }
+  .footer--mobile .b--subfooter {
+    position: relative;
+    float: left;
+    width: 100%;
+    background-color: white;
+    height: 37px; }
+    .footer--mobile .b--subfooter .btn {
+      padding: 8px 10px;
+      font-family: "Montserrat";
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: capitalize;
+      background: #f5f5f5;
+      width: 100% !important;
+      border-bottom: 1px solid #ccc !important; }
+      .footer--mobile .b--subfooter .btn .s-4x {
+        margin-left: 10px;
+        font-size: 12px; }
+      .footer--mobile .b--subfooter .btn .s-chevron-right:before {
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        transform: rotate(-90deg); }
+  .footer--mobile h6 {
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center !important;
+    float: none;
+    display: block;
+    margin-top: 30px; }
+  .footer--mobile ul {
+    position: relative;
+    margin: 0;
+    text-align: left;
+    padding-left: 0;
+    line-height: 1; }
+    .footer--mobile ul li {
+      float: none;
+      display: inline-block; }
+      .footer--mobile ul li a {
+        float: left;
+        padding: 6px 16px;
+        font-size: 12px;
+        font-family: "Montserrat";
+        font-weight: 300;
+        line-height: 1.8em; }
+  .footer--mobile .list-unstyled .media-body a {
+    padding-left: 0; }
+  .footer--mobile .list-unstyled .s-3x {
+    font-size: 2.2em; }
+  .footer--mobile .socialList-mobile li {
+    float: left;
+    margin: 0;
+    padding: 0; }
+  .footer--mobile .socialList-mobile li a {
+    padding: 10px 20px 10px 0; }
+  .footer--mobile .socialList-mobile .s-3x {
+    font-size: 2.5em; }
+
+.panel-default {
+  border: none; }
+
+.panel-title {
+  font-family: "Montserrat";
+  font-weight: 700;
+  padding: 10px 0; }
+  .panel-title__logo {
+    width: 40%; }
+
+.panel-heading {
+  position: relative; }
+  .panel-heading .s-chevron-right {
+    position: absolute;
+    right: 20px; }
+  .panel-heading .s-chevron-right:before {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg); }
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+  border-top: none; }
+
+.panel-group .panel-heading {
+  border-bottom: 1px solid #222222; }
+
+.panel-default > .panel-heading {
+  background-color: white !important;
+  border-color: #999 !important; }
+
+.panel-body__list-item {
+  padding: 5px 0;
+  font-family: "Gotham Book"; }
+
+@media all and (max-width: 767px) {
+  .footer--mobile {
+    display: block;
+    margin-bottom: 70px; } }
+
+@media all and (max-width: 575px) {
+  .b--listing .slick-slide {
+    opacity: 0 !important; }
+  .b--listing .slick-current {
+    opacity: 1 !important; }
+  .b--listing .slick-current + .slick-slide {
+    opacity: 1 !important; } }
+
+.b--listing {
+  padding: 40px 0; }
+  @media screen and (max-width: 840px) {
+    .b--listing {
+      padding: 40px 0; } }
+
+#thumbnail_slider--swatch img {
+  display: none; }
+
+.b--header-promo {
+  background: #295981;
+  padding: 7px; }
+
+.b--header-promo__wrapper {
+  color: #fff;
+  position: relative;
+  text-align: center; }
+  .b--header-promo__wrapper a {
+    color: #fff;
+    text-transform: lowercase;
+    text-decoration: underline; }
+  .b--header-promo__wrapper p {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: "Gotham Book";
+    font-size: 13px; }
+    @media screen and (max-width: 840px) {
+      .b--header-promo__wrapper p {
+        font-size: 12px; } }
+  .b--header-promo__wrapper .b--header-promo__wrapper__next {
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: -3px;
+    padding: 5px;
+    cursor: pointer; }
+  .b--header-promo__wrapper .b--header-promo__wrapper__prev {
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: -3px;
+    padding: 5px;
+    cursor: pointer; }
+
+.b--modal-backdrop--is-active {
+  background: #5d5d5d9c;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 56; }
+
+.b--category-primary--margin {
+  margin-right: 2px; }
+
+.b--navbar--scolled-active .b--overlay-menu {
+  top: 110px !important; }
+
+.b--navbar--scolled-active + .b--section-primary--top-element {
+  margin-top: 202px !important; }
+
+.b--cta-primary__img a::after,
+.b--category-primary__img a::after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+17,000000+100&0+51,0.6+100 */
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 17%, rgba(0, 0, 0, 0) 51%, rgba(0, 0, 0, 0.6) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 17%, rgba(0, 0, 0, 0) 51%, rgba(0, 0, 0, 0.6) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 17%, rgba(0, 0, 0, 0) 51%, rgba(0, 0, 0, 0.6) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#99000000',GradientType=0 );
+  /* IE6-9 */ }
+
+.b--va-wrap__middle::after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 0; }
